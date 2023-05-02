@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="icon" href="icon.png">
+</head>
+<body>
+<div class="navbar">
+  <div class ="left">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <div class="dropdown">
+      <button class="dropbtn">News Stories
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="wctc.html">WCTC</a>
+        <a href="media.html">Media</a>
+        <a href="global.html">Global</a>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+<img class ="logo" src="logo.png">
+<header class="home"><h1><a href="index.html">Real Fake News</a></h1></header>
+<div class="wrapper">
+  <h3>Contact Form</h3>
+  <hr>
+  <p>Fill in the information below. Items marked with * are required.</p>
+  <form target="_blank" action="thanks.html" method="POST">
+    <label for="Name">* Name:</label>
+    <input type="text" id="Name" name="Name" required>
+    <label for="email">* E-mail:</label>
+    <input type="text" id="email" name="email" required>
+    <label for="hear">How did you hear about us?</label>
+    <select id="hear" name="hear">
+      <option>-No Selection-</option>
+      <option>Other News Networks</option>
+      <option>Social Media</option>
+      <option>Friends</option>
+      <option>Browsing</option>
+      <option>None of the Above</option>
+    </select>
+    <label for="reason">Why are you contacting us?</label>
+    <select id="reason" name="reason">
+      <option>-No Selection-</option>
+      <option>Feedback</option>
+      <option>Question</option>
+      <option>Job Opportunity</option>
+      <option>None of the Above</option>
+    </select>
+    <label for="Subject">Subject:</label>
+    <input type="text" id="Subject" name="Subject">
+    * Comment:<textarea name="comment" rows="2" cols="20" required></textarea>
+    <input type ="submit" value="Send Now">
+  </form>
+  <hr>
+  <footer>
+    Copyright © 2023 Real Fake News Network <br>
+    <a href="mailto: zach@stepp.com">zach@stepp.com</a> - <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</div>
+</body>
+</html>

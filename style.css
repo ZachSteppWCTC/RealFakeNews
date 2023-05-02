@@ -1,0 +1,288 @@
+body
+{
+    background-color:#40407A;
+    margin: 0;
+    font-family: Bahnschrift;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Bahnschrift;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: darkcyan;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header
+{
+    background-color: #40407A;
+    text-decoration: none;
+    text-decoration-color: #FFFFFF;
+    background-image: url("city.jpg");
+    background-size: 100% 100%;
+    color: #ffffff;
+    font-size: 140%;
+    min-height: 200px;
+}
+
+.home
+{
+    height:20vh;
+    padding-top: 2em;
+    padding-left: 12%;
+    color: Black;
+    font-family: "Agency FB";
+}
+
+a {
+    text-decoration: none;
+}
+
+.home a:visited {
+    color: black;
+}
+
+.wrapper {
+    background-color: aliceblue;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 14em;
+    margin-right: 14em;
+}
+
+p{
+    font-size: large;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h2{
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.thumb
+{
+    float: right;
+    min-width: 150px;
+    min-height: 100px;
+    max-width: 250px;
+    max-height: 175px;
+    margin-right: 1em;
+    margin-left: 1em;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+h3
+{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.logo
+{
+    float: right;
+    min-width: 150px;
+    min-height: 100px;
+    max-width: 250px;
+    max-height: 175px;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-right: 5em;
+    margin-top: 2em;
+}
+
+footer
+{
+    text-align:center;
+    font-style: italic;
+    font-size: small;
+    clear: right;
+}
+
+dt
+{
+    font-size: x-large;
+    margin-bottom: 0.5em;
+    margin-top:0.5em;
+}
+
+dd
+{
+    font-size: large;
+}
+
+h4{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5
+{
+    font-size: large;
+    font-style: italic;
+    color: gray;
+    padding: 0;
+    margin-left: 1em;
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+input, label, textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+label {
+    margin-top: 15px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="text"], input[type="email"], select{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid darkcyan;
+    min-width: 200px;
+    min-height: 25px;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+
+.complaint-form
+{
+    background-color: white;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.thanks
+{
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 250px;
+    max-height: 240px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.guide
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    border-radius: 6px;
+}
+
+.guidebutton
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    min-width: 600px;
+}
+
+.guidebutton:hover
+{
+    background-color: darkcyan;
+}
+
