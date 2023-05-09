@@ -104,6 +104,10 @@ a {
     color: black;
 }
 
+.home a {
+    color: black;
+}
+
 .wrapper {
     background-color: aliceblue;
     padding-left: 8em;
